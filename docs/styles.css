@@ -1,0 +1,14 @@
+/*
+Name:     Luke Martin
+Class:    CPSC 332 - Web Dev
+Semester: Fall 2022
+Project:  Homework 6
+Last Mod: November 12, 2022
+Desc:     The file contains the JS for a timer created using JQuery.
+          The rest of the styling is created in the JS file using JQuery.
+Modified from: https://codepen.io/cathydutton/pen/GBcvo
+*/
+
+h1 {
+    text-align: center;
+}

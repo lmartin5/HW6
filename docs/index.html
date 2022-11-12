@@ -1,0 +1,39 @@
+<!--
+Name:     Luke Martin
+Class:    CPSC 332 - Web Dev
+Semester: Fall 2022
+Project:  Homework 6
+Last Mod: November 12, 2022
+Desc:     The file contains the HTML for a timer created using JQuery.
+Modified from: https://codepen.io/cathydutton/pen/GBcvo
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW6 - JQuery</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+        crossorigin="anonymous"></script>
+    <script src="stopwatch.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="timer-container">
+        <h1>JQuery Stopwatch</h1>
+        <img id="timer-logo" src="clippers.png" alt="Clippers Logo">
+        <p id="timer"><span id="seconds">00</span>:<span id="tens">00</span></p>
+        <div id="button-container">
+            <button id="button-start">Start</button>
+            <button id="button-stop">Stop</button>
+            <button id="button-reset">Reset</button>
+        </div>
+        </div>
+    </div>
+</body>
+
+</html>
